@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/listingFragment">
+    <fragment
+        android:id="@+id/listingFragment"
+        android:name="com.example.practicaltaskemarat.mvvm.views.ListingFragment"
+        android:label="university List"
+        tools:layout="@layout/listing_fragment_main" >
+        <action
+            android:id="@+id/action_popularMovieFragment_to_universityDetailsFragment"
+            app:destination="@id/universityDetailsFragment"
+             />
+
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/universityDetailsFragment"
+        android:name="com.example.practicaltaskemarat.mvvm.views.universityDetails.UniversityDetailsFragment"
+        android:label="university Details"
+        tools:layout="@layout/university_details_fragment" >
+        <argument
+            android:name="university"
+            app:argType="com.example.practicaltaskemarat.dao.University" />
+
+    </fragment>
+
+</navigation>
