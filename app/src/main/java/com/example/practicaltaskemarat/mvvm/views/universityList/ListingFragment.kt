@@ -1,8 +1,6 @@
-package com.example.practicaltaskemarat.mvvm.views
+package com.example.practicaltaskemarat.mvvm.views.universityList
 
-import android.content.Context
 import android.os.Bundle
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -14,6 +12,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.practicaltaskemarat.UniversityItemClickListener
 import com.example.practicaltaskemarat.dao.University
 import com.example.practicaltaskemarat.databinding.ListingFragmentMainBinding
+import com.example.practicaltaskemarat.mvvm.views.ListingFragmentVM
 import dagger.hilt.android.AndroidEntryPoint
 import java.util.ArrayList
 

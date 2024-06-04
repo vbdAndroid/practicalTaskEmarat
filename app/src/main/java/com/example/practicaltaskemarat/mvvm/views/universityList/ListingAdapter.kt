@@ -1,4 +1,4 @@
-package com.example.practicaltaskemarat.mvvm.views
+package com.example.practicaltaskemarat.mvvm.views.universityList
 
 import android.content.Context
 import android.view.LayoutInflater

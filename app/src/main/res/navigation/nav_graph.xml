@@ -6,7 +6,7 @@
     app:startDestination="@id/listingFragment">
     <fragment
         android:id="@+id/listingFragment"
-        android:name="com.example.practicaltaskemarat.mvvm.views.ListingFragment"
+        android:name="com.example.practicaltaskemarat.mvvm.views.universityList.ListingFragment"
         android:label="university List"
         tools:layout="@layout/listing_fragment_main" >
         <action
